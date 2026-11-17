@@ -217,7 +217,7 @@ Every interface is up with the expected address, and each router has only the st
 
 *Hub-1 also sees its track go Down and switches its route to the Branch LAN to the MPLS tunnel (192.168.1.2, distance 50).*
 
-![Hub-1 traceroute and ping during the outage](images/24-hub1-failover-traceroute-ping.png)
+![Hub-1 traceroute and ping during the outage](images/24-hub1-failover-traceroute.png)
 
 *From the Hub LAN the traceroute shows the MPLS tunnel hop, 192.168.1.2, and the ping to the Branch LAN succeeds.*
 
