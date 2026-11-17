@@ -1,4 +1,10 @@
 # SD-WAN Dual Transport Failover
+![Platform](https://img.shields.io/badge/Platform-Cisco_CML-049fd9)
+![Nodes](https://img.shields.io/badge/Nodes-IOSv-1ba0d7)
+![Tunnels](https://img.shields.io/badge/Tunnels-GRE-blue)
+![Encryption](https://img.shields.io/badge/Encryption-IKEv2_IPsec-success)
+![Failover](https://img.shields.io/badge/Failover-IP_SLA-orange)
+![Evidence](https://img.shields.io/badge/Evidence-29_screenshots-brightgreen)
 
 A hub-and-branch WAN lab built in Cisco Modeling Labs (CML) with IOSv routers. Each site connects to two separate providers: a private MPLS provider and a public broadband provider. One GRE tunnel runs over each provider, both tunnels are encrypted with IKEv2/IPsec, and an IP SLA probe decides which tunnel carries the traffic.
 
