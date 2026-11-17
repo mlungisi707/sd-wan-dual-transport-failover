@@ -1,4 +1,4 @@
-# High-Availability SD-WAN Simulation
+# SD-WAN Dual Transport Failover
 
 A hub-and-branch WAN lab built in Cisco Modeling Labs (CML) with IOSv routers. Each site connects to two separate providers: a private MPLS provider and a public broadband provider. One GRE tunnel runs over each provider, both tunnels are encrypted with IKEv2/IPsec, and an IP SLA probe decides which tunnel carries the traffic.
 
